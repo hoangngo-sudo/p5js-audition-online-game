@@ -504,7 +504,7 @@ function draw() {
     
     fill(255, 255, 255);
     textSize(windowHeight / 26);
-    text('© 2024 made by p5js', windowWidth / 2, windowHeight / 2 + 300);
+    text('© 2024 made with p5js', windowWidth / 2, windowHeight / 2 + 300);
 
     push(); // Save the current drawing style settings again
     imageMode(CORNER); // Change image mode to CORNER for positioning from the top-left
