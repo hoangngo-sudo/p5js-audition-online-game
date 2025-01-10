@@ -761,25 +761,25 @@ function showCharr() {
   text(`${langTexts[8]}: ${userName}`, windowWidth / 2, windowHeight / 10);
 
   // Display combo movements
-  if (characterCount >= 1) { // If at least one character has been displayed
-    let numMoves = combo[z].moves.length; // Get the number of moves in the selected combo
+  if (characterCount >= 1) {                // If at least one character has been displayed
+    let numMoves = combo[z].moves.length;   // Get the number of moves in the selected combo
     let imgWidth = combo[z].moves[0].width; // Get the width of the first move image
-    let margin = 50; // Define a margin from the edges of the screen
+    let margin = 50;                        // Define a margin from the edges of the screen
 
     // Calculate X positions dynamically to evenly distribute move images across the screen
     let xPositions = calculateXPositions(numMoves, imgWidth, windowWidth, margin);
-    let yMovePos = windowHeight / 2; // Y-coordinate where move images will be displayed
+    let yMovePos = windowHeight / 2;        // Y-coordinate where move images will be displayed
 
-    for (let i = 0; i < numMoves; i++) { // Loop through each move in the combo
-      let xPos = xPositions[i]; // Get the X position for the current move
+    for (let i = 0; i < numMoves; i++) {        // Loop through each move in the combo
+      let xPos = xPositions[i];                 // Get the X position for the current move
       image(combo[z].moves[i], xPos, yMovePos); // Display the move image at the calculated position
     }
   }
 
-  if (characterCount >= 2) { // If at least two characters have been displayed
-    let numMoves = arrows.length; // Get the number of arrow images
+  if (characterCount >= 2) {        // If at least two characters have been displayed
+    let numMoves = arrows.length;   // Get the number of arrow images
     let imgWidth = arrows[0].width; // Get the width of the first arrow image
-    let margin = 100; // Define a larger margin for arrow images
+    let margin = 100;               // Define a larger margin for arrow images
 
     // Calculate X positions dynamically to evenly distribute arrow images across the screen
     let xPositions = calculateXPositions(numMoves, imgWidth, windowWidth, margin);
@@ -788,14 +788,14 @@ function showCharr() {
     // Calculate Y-coordinate for arrow images based on move image position and sizes
     let yArrowPos = calculateArrowYPosition(yMovePos, combo[z].moves[0].height, arrows[0].height, 20);
 
-    for (let i = 0; i < numMoves; i++) { // Loop through each arrow image
-      let xPos = xPositions[i]; // Get the X position for the current arrow
-      image(arrows[i], xPos, yArrowPos); // Display the arrow image at the calculated position
+    for (let i = 0; i < numMoves; i++) {  // Loop through each arrow image
+      let xPos = xPositions[i];           // Get the X position for the current arrow
+      image(arrows[i], xPos, yArrowPos);  // Display the arrow image at the calculated position
     }
   }
 
-  if (characterCount >= 3) { // If at least three characters have been displayed
-    fill(255, 255, 255); // Set text color to white
+  if (characterCount >= 3) {                                  // If at least three characters have been displayed
+    fill(255, 255, 255);                                      // Set text color to white
     text(langTexts[11], windowWidth / 2, windowHeight / 1.1); // Display prompt to start the game
   }
 
@@ -838,9 +838,9 @@ function calculateArrowYPosition(yMove, moveHeight, arrowHeight, offset = 20) {
 //--------------------------------------
 
 function charrRoutine() {
-  let numMoves = routineLength; // Number of moves in the current routine
+  let numMoves = routineLength;           // Number of moves in the current routine
   let imgWidth = combo[z].moves[0].width; // Width of move images (assuming all move images have the same width)
-  let margin = 50; // Margin from the edges of the screen
+  let margin = 50;                        // Margin from the edges of the screen
 
   // Calculate dynamic X positions to evenly distribute move and arrow images across the screen
   let xPositions = calculateXPositions(numMoves, imgWidth, windowWidth, margin);
@@ -848,9 +848,9 @@ function charrRoutine() {
   // Calculate Y-coordinate for arrow images based on move image position and sizes
   let yArrowPos = calculateArrowYPosition(yMovePos, combo[z].moves[0].height, arrows[0].height, 20);
 
-  for (let i = 0; i < numMoves; i++) { // Loop through each move in the routine
-    let xPos = xPositions[i]; // Get the X position for the current move
-    let moveIndex = routine[i]; // Get the move index from the routine array
+  for (let i = 0; i < numMoves; i++) {     // Loop through each move in the routine
+    let xPos = xPositions[i];              // Get the X position for the current move
+    let moveIndex = routine[i];            // Get the move index from the routine array
 
     // Display the move image at the calculated position
     image(combo[z].moves[moveIndex], xPos, yMovePos);
