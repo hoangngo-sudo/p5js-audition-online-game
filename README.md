@@ -1,4 +1,4 @@
-# 🎮 This Audition Online Concept Game was created for ART151 at the University of Illinois at Chicago
+# This Audition Online Concept Game was created for my ART151 class at the University of Illinois Chicago
 
 Welcome to **Audition Online Concept**, a basic rhythm-based game inspired by the popular dance game *Audition Online*. Built using the **p5.js** library, this project brings the excitement of rhythm and dance to your browser!
 
