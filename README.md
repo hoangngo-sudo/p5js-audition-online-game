@@ -1,10 +1,10 @@
-# This Audition Online Concept Game was created for my ART151 class at the University of Illinois Chicago
+# Audition Online Concept Game 
 
-Welcome to **Audition Online Concept**, a basic rhythm-based game inspired by the popular dance game *Audition Online* 2007 version.
+This is a basic rhythm-based game inspired by the popular dance game *Audition Online* 2007 version.
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/hoangngo-sudo/p5js-audition-online-game)
 
-Check out the live DEMO:  
+Check out the DEMO below:  
 👉 [Play Now](https://hoangngo-sudo.github.io/p5js-audition-online-game/)
 
 ## Build With
