@@ -3,7 +3,6 @@
 // Reference for adding js confetti effect at the end of the game
 // Demo: https://loonywizard.github.io/js-confetti/
 // GitHub Repository: https://github.com/loonywizard/js-confetti?tab=readme-ov-file for more information
-
 // Original server-side game website version 1:https://au.vtc.vn/
 // Official server-side game website version 2:https://au2pc.vtcgame.vn/
 
