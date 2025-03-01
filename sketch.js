@@ -1,7 +1,4 @@
 // sketch.js
-// Audition Online
-
-// Minh Ngo
 
 // Reference for adding js confetti effect at the end of the game
 // Demo: https://loonywizard.github.io/js-confetti/
