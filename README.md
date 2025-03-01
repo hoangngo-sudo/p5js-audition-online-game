@@ -5,7 +5,7 @@ This is a basic rhythm-based game inspired by the popular dance game *Audition O
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge)](https://github.com/hoangngo-sudo/p5js-audition-online-game)
 
 Check out the DEMO below:  
-👉 [Play Now](https://hoangngo-sudo.github.io/p5js-audition-online-game/)
+[Play Now](https://hoangngo-sudo.github.io/p5js-audition-online-game/)
 
 ## Build With
 - **p5.js**: A JavaScript library for creative coding and visualization.
