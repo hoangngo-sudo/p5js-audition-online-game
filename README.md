@@ -1,4 +1,4 @@
-# Audition Online Concept Game 
+# p5js Audition Online Concept Game 
 
 This is a basic rhythm-based game inspired by the popular dance game *Audition Online* 2007 version.
 
